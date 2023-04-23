@@ -23,7 +23,6 @@ body {
 }
 .heading-note {
   font-size: 50px;
-  outline: 1px solid red;
 }
 .gradient {
   font-family: "Roboto", sans-serif;
@@ -34,7 +33,7 @@ body {
 }
 .welcome-note {
   margin: 0;
-  background-image: url("/Images/deep_space.webp");
+  background-image: url("./Images/deep_space.webp");
   background-size: cover;
   font-family: "Roboto", sans-serif;
   min-height: 80vh;
