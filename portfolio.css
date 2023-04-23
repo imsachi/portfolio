@@ -2,18 +2,28 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 .navbar {
+  font-family: "Roboto Slab", serif;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0);
   position: fixed;
 }
 .logo {
+  text-align: center;
+
+  border: solid 1px lime;
+  border-radius: 5px;
   margin-left: 10%;
   color: white;
   font-family: "Roboto";
-  font-size: 70px;
+  font: size 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.logo-span {
+  color: #18ff69;
 }
 .heading-note {
   font-size: 50px;
+  outline: 1px solid red;
 }
 .gradient {
   font-family: "Roboto", sans-serif;
@@ -23,6 +33,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .welcome-note {
+  margin: 0;
   background-image: url("/Images/deep_space.webp");
   background-size: cover;
   font-family: "Roboto", sans-serif;
@@ -42,8 +53,12 @@ body {
 }
 .dp {
   width: 100%;
+  max-width: 400px;
   height: auto;
   border-radius: 50%;
+}
+.self-intro {
+  padding: 10%;
 }
 .short-desc {
   color: rgb(98, 117, 111);
