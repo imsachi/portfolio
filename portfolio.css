@@ -1,0 +1,89 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.navbar {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+}
+.logo {
+  margin-left: 10%;
+  color: white;
+  font-family: "Roboto";
+  font-size: 70px;
+}
+.heading-note {
+  font-size: 50px;
+}
+.gradient {
+  font-family: "Roboto", sans-serif;
+
+  background: -webkit-linear-gradient(60deg, limegreen, springgreen);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.welcome-note {
+  background-image: url("/Images/deep_space.webp");
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  min-height: 80vh;
+
+  color: white;
+}
+.desc {
+  min-height: 80vh;
+}
+.name {
+  font-family: "Roboto", sans-serif;
+  color: #00e56f;
+}
+.dp-container {
+  padding: 5%;
+}
+.dp {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.short-desc {
+  color: rgb(98, 117, 111);
+  word-spacing: 5px;
+}
+.profile-summary {
+  background-color: black;
+  min-height: 70vh;
+  color: whitesmoke;
+}
+.profile-summary-content {
+  border-left: 5px solid #00ff33;
+  padding-left: 5%;
+}
+.button-resume {
+  background-color: black;
+  color: #18ff69;
+  border: solid 2px black;
+  padding: 5px;
+}
+.skill-section {
+  background-color: rgb(18, 33, 24);
+  min-height: 60vh;
+}
+.btn-social {
+  border: none;
+}
+.logo-skils {
+  margin: 5%;
+}
+.section-2 {
+  color: white;
+}
+.edu-container {
+}
+.heading-skils,
+.heading-education {
+  font-size: 30px;
+  color: #edfaf2;
+}
+.description {
+  color: rgb(46, 46, 46);
+}
