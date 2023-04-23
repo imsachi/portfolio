@@ -33,12 +33,8 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .welcome-note {
-<<<<<<< HEAD
   margin: 0;
   background-image: url("/Images/deep_space.webp");
-=======
-  background-image: url("./Images/deep_space.webp");
->>>>>>> 3e8b439d242380ddcd33a25ad22d8974dd8e1d3d
   background-size: cover;
   font-family: "Roboto", sans-serif;
   min-height: 80vh;
