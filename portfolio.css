@@ -54,7 +54,7 @@ body {
   padding: 5%;
 }
 .dp {
-  width: 100%;
+  width: 70%;
   max-width: 400px;
   height: auto;
   border-radius: 50%;
@@ -64,7 +64,14 @@ body {
 }
 .short-desc {
   color: rgb(98, 117, 111);
-  word-spacing: 5px;
+  word-spacing: 3px;
+}
+.hilight {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #61cb95;
+  color: white;
+  font-weight: bold;
 }
 .profile-summary {
   background-color: black;
