@@ -38,7 +38,7 @@ body {
   background-image: url("./Images/deep_space.webp");
   background-size: cover;
   font-family: "Roboto", sans-serif;
-  min-height: 80vh;
+  min-height: 90vh;
   width: 100%;
 
   color: white;
@@ -67,6 +67,7 @@ body {
   word-spacing: 3px;
 }
 .hilight {
+  display: inline-block;
   border-radius: 5px;
   padding: 5px;
   background-color: #61cb95;
@@ -74,11 +75,12 @@ body {
   font-weight: bold;
 }
 .profile-summary {
-  background-color: black;
+  background-color: rgb(17, 17, 17);
   min-height: 70vh;
   color: whitesmoke;
 }
 .profile-summary-content {
+  background-color: #101814;
   border-left: 5px solid #00ff33;
   padding-left: 5%;
 }
@@ -87,6 +89,7 @@ body {
   color: #18ff69;
   border: solid 2px black;
   padding: 5px;
+  text-decoration: none;
 }
 .skill-section {
   background-color: rgb(18, 33, 24);
@@ -96,7 +99,7 @@ body {
   border: none;
 }
 .logo-skils {
-  margin: 5%;
+  margin: 15px;
 }
 .section-2 {
   color: white;
