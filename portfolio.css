@@ -1,116 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Lora&family=Open+Sans&family=Roboto+Mono&family=Roboto+Slab&family=Roboto:wght@500&family=Varela+Round&display=swap");
+* {
+  box-sizing: border-box;
+}
 body {
-  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
 }
 .navbar {
-  font-family: "Roboto Slab", serif;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0);
-  position: fixed;
+  height: 100px;
+  background-color: blue;
 }
 .logo {
-  text-align: center;
-  margin-top: 5px;
-  border: solid 1px lime;
-  border-radius: 5px;
-  margin-left: 5%;
-  color: white;
-  font-family: "Roboto";
-  font: size 50px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.logo-span {
-  color: #18ff69;
-}
-.heading-note {
-  font-size: 50px;
-}
-.gradient {
-  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  font-family: "roboto Mono", monospace;
+  font-size: 45px;
+  height: 100%;
 
-  background: -webkit-linear-gradient(60deg, limegreen, springgreen);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  margin-left: 10%;
 }
 .welcome-note {
-  margin: 0;
-  background-image: url("./Images/deep_space.webp");
-  background-size: cover;
-  font-family: "Roboto", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+.heading-note {
+  font-size: 70px;
+}
+.self-intro-section {
+  font-family: "Varela Round";
   min-height: 90vh;
-  width: 100%;
-
-  color: white;
+  background-color: #bde0fe;
 }
-.desc {
-  min-height: 80vh;
-}
-.name {
-  font-family: "Roboto", sans-serif;
-  color: #00e56f;
-}
-.dp-container {
+.self-intro {
+  border-radius: 20px;
+  background-color: #d4ebff;
   padding: 5%;
 }
 .dp {
-  width: 70%;
-  max-width: 400px;
-  height: auto;
+  width: 300px;
   border-radius: 50%;
 }
-.self-intro {
-  padding: 10%;
-}
-.short-desc {
-  color: rgb(98, 117, 111);
-  word-spacing: 3px;
-}
-.hilight {
-  display: inline-block;
-  border-radius: 5px;
-  padding: 5px;
-  background-color: #61cb95;
-  color: white;
-  font-weight: bold;
-}
-.profile-summary {
-  background-color: rgb(17, 17, 17);
-  min-height: 70vh;
-  color: whitesmoke;
-}
-.profile-summary-content {
-  background-color: #101814;
-  border-left: 5px solid #00ff33;
-  padding-left: 5%;
-}
-.button-resume {
-  background-color: black;
-  color: #18ff69;
-  border: solid 2px black;
-  padding: 5px;
-  text-decoration: none;
-}
-.skill-section {
-  background-color: rgb(18, 33, 24);
-  min-height: 60vh;
+.social-container {
 }
 .btn-social {
-  border: none;
+  font-size: 32px;
+  margin-left: 10px;
 }
-.logo-skils {
-  margin: 15px;
+.mail-add {
+  margin-left: 10px;
+  display: inline;
+  font-size: 20px;
 }
-.section-2 {
-  color: white;
+.skils-section {
+  border: 2px solid red;
+}
+.skils-container {
+  font-family: "varela Round";
+}
+.skils-card {
+  margin: 10%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid lightblue;
+  border-radius: 10px;
+  padding: 5%;
 }
 .edu-container {
 }
-.heading-skils,
-.heading-education {
-  font-size: 30px;
-  color: #edfaf2;
-}
-.description {
-  color: rgb(46, 46, 46);
+.edu-card {
+  margin: 10%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "varela Round";
+  border: 2px solid lightblue;
+  padding: 5%;
+  border-radius: 10px;
 }
