@@ -33,16 +33,23 @@ body {
 .self-intro-section {
   font-family: "Varela Round";
   min-height: 90vh;
-  background-color: #bde0fe;
+  background-color: #e7f4ff;
 }
 .self-intro {
   border-radius: 20px;
-  background-color: #d4ebff;
+  background-color: #dff0ff;
   padding: 5%;
 }
 .dp {
+  border: solid 5px lightblue;
   width: 300px;
   border-radius: 50%;
+}
+@media (max-width: 720px) {
+  .dp {
+    width: 200px;
+    margin: 10%;
+  }
 }
 .social-container {
 }
@@ -82,4 +89,7 @@ body {
   border: 2px solid lightblue;
   padding: 5%;
   border-radius: 10px;
+}
+.heart {
+  color: rgb(227, 0, 23);
 }
