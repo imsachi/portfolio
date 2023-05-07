@@ -79,12 +79,30 @@ body {
     height: 70px;
   }
 }
-.social-container {
+.social-logo-container {
+  display: flex;
+  align-items: center;
 }
 .btn-social {
-  font-size: 32px;
+  height: 32px;
   margin-left: 10px;
 }
+@media (max-width: 720px) {
+  .btn-social {
+    height: 25px;
+  }
+  .social-logo-container {
+    width: 100%;
+  }
+}
+.resume {
+  padding: 3px;
+  text-decoration: none;
+  color: rgb(0, 89, 255);
+  border: 2px solid rgb(0, 115, 255);
+  border-radius: 4px;
+}
+
 .mail-add {
   margin-left: 10px;
   display: inline;
@@ -98,7 +116,7 @@ body {
 }
 .skils-card {
   min-height: 200px;
-  margin: 30px;
+  margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -120,7 +138,7 @@ body {
 .edu-container {
 }
 .edu-card {
-  margin: 30px;
+  margin: 20px;
   min-height: 200px;
   font-family: "varela Round";
   padding: 5%;
@@ -131,6 +149,9 @@ body {
     rgba(255, 211, 248, 0.367) 20%,
     rgb(192, 226, 255) 100%
   );
+}
+.bold {
+  font-weight: bold;
 }
 
 .heart {
